@@ -1,0 +1,2 @@
+'use strict';
+(()=>{const mobile=matchMedia('(pointer:coarse)').matches||/Android|iPhone|iPad/i.test(navigator.userAgent),query=location.search;if(!mobile){location.replace('menu.html'+query);return}if(location.protocol==='file:'){location.replace('login.html'+query);return}fetch('/api/me').then(r=>r.json()).then(p=>location.replace((p.user&&!p.user.guest?'modos.html':'login.html')+query)).catch(()=>{document.getElementById('entryStatus').textContent='No se pudo contactar al servidor. Puedes volver a intentar el acceso móvil.'})})();

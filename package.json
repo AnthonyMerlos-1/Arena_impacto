@@ -1,0 +1,15 @@
+{
+  "name": "arena-impacto-online",
+  "version": "4.0.0",
+  "private": true,
+  "description": "Platform fighter with authoritative online rooms and mobile controls",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "start": "node scripts/build-pages.js && node server.js",
+    "test": "node --test test/*.test.js",
+    "build": "node scripts/build-pages.js"
+  },
+  "license": "UNLICENSED"
+}

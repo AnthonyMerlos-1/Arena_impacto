@@ -1,0 +1,17 @@
+ARENA IMPACTO ONLINE 4.0
+
+29 personajes · 16 mapas · máximo 7 combatientes.
+
+PC, prueba rápida: abre public/index.html. Funciona el juego local.
+Juego completo con cuentas y multijugador: instala Node.js 24+, abre una terminal en esta carpeta y ejecuta npm ci y luego npm start. Abre http://localhost:3000.
+
+En móvil, el servidor lleva primero a iniciar sesión o registrarse; después muestra práctica, multijugador, aleatorio y entrenamiento. Los ajustes incluyen color, sonido y tamaño de controles.
+
+Railway: sube el contenido de esta carpeta a un repositorio, conecta un servicio, agrega volumen /data y DATA_DIR=/data, una réplica y dominio HTTPS. Lee README.md para los pasos.
+
+Es un juego independiente 2D con dibujos y movimientos simplificados, no el juego comercial completo.
+
+CÓMO GOLPEAR
+PC: A/D mover; W o espacio saltar; S bajar; F golpe (mantener para combo); G poder; H escudo; R agarre; T cargar y soltar; E lanzar bomba; Q definitivo.
+Móvil: flechas + SALTAR, GOLPE, PODER, ESCUDO, AGARRE, CARGAR, OBJETO y ULTI. Pulsa Cómo golpear durante el combate para la guía.
+Cada 10 segundos aparecen objetos y una esfera si no hay otra. Rompe la esfera ROSA y recoge de cerca el núcleo; entonces puedes usar ULTI. Los bots también pueden conseguirlo. Cada mapa tiene su música.
